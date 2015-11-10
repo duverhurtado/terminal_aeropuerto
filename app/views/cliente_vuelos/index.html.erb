@@ -1,0 +1,27 @@
+<h1>Listing cliente_vuelos</h1>
+<div class="table-responsive">
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr class="success">
+      <th>Cliente</th>
+      <th>Vuelo</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @cliente_vuelos.each do |cliente_vuelo| %>
+      <tr>
+        <td><%= cliente_vuelo.cliente.nombre %></td>
+        <td><%= cliente_vuelo.vuelo.num_vuelo %></td>
+        <td><%= link_to 'Ver', cliente_vuelo %></td>
+        <td><%= link_to 'Editar', edit_cliente_vuelo_path(cliente_vuelo) %></td>
+        <td><%= link_to 'Eliminar', cliente_vuelo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</div>
+<br>
+
+<%= link_to 'Nuevo Cliente vuelo', new_cliente_vuelo_path %>

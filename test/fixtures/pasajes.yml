@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cliente_id: 
+  vuelo_id: 
+  clase_id: 
+  asiento: MyString
+  valor: MyString
+
+two:
+  cliente_id: 
+  vuelo_id: 
+  clase_id: 
+  asiento: MyString
+  valor: MyString

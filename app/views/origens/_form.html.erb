@@ -1,0 +1,25 @@
+<%= form_for(@origen) do |f| %>
+  <% if @origen.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@origen.errors.count, "error") %> prohibited this origen from being saved:</h2>
+
+      <ul>
+      <% @origen.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :ciudad %><br>
+    <%= f.text_field :ciudad %>
+  </div>
+  <div class="field">
+    <%= f.label :n_aeropuerto %><br>
+    <%= f.text_field :n_aeropuerto %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

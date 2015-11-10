@@ -1,0 +1,16 @@
+
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cliente:</strong>
+  <%= @cliente_vuelo.cliente.nombre.apellidos %>
+</p>
+
+<p>
+  <strong>Vuelo:</strong>
+  <%= @cliente_vuelo.vuelo.num_vuelo.origen.destino %>
+</p>
+
+<%= link_to 'Edit', edit_cliente_vuelo_path(@cliente_vuelo) %> |
+<%= link_to 'Back', cliente_vuelos_path %>

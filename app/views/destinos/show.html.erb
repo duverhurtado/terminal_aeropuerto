@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ciudad:</strong>
+  <%= @destino.ciudad %>
+</p>
+
+<p>
+  <strong>N aeropuerto:</strong>
+  <%= @destino.n_aeropuerto %>
+</p>
+
+<%= link_to 'Edit', edit_destino_path(@destino) %> |
+<%= link_to 'Back', destinos_path %>

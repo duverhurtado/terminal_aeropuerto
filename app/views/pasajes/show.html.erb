@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cliente:</strong>
+  <%= @pasaje.cliente.rut %>
+</p>
+
+<p>
+  <strong>Vuelo:</strong>
+  <%= @pasaje.vuelo.num_vuelo %>
+</p>
+
+<p>
+  <strong>Clase:</strong>
+  <%= @pasaje.clase.t_clase %>
+</p>
+
+<p>
+  <strong>Asiento:</strong>
+  <%= @pasaje.asiento %>
+</p>
+
+<p>
+  <strong>Valor:</strong>
+  <%= @pasaje.valor %>
+</p>
+
+<%= link_to 'Edit', edit_pasaje_path(@pasaje) %> |
+<%= link_to 'Back', pasajes_path %>

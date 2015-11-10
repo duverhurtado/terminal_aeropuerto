@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @aerolinea.nombre %>
+</p>
+
+<p>
+  <strong>Direccion:</strong>
+  <%= @aerolinea.direccion %>
+</p>
+
+<p>
+  <strong>Telefono:</strong>
+  <%= @aerolinea.telefono %>
+</p>
+
+<%= link_to 'Edit', edit_aerolinea_path(@aerolinea) %> |
+<%= link_to 'Back', aerolineas_path %>

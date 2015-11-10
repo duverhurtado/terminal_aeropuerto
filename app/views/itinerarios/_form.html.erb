@@ -1,0 +1,37 @@
+<%= form_for(@itinerario) do |f| %>
+  <% if @itinerario.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@itinerario.errors.count, "error") %> prohibited this itinerario from being saved:</h2>
+
+      <ul>
+      <% @itinerario.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :codigo_it %><br>
+    <%= f.text_field :codigo_it %>
+  </div>
+  <div class="field">
+    <%= f.label :destino_id %><br>
+    <%= f.select( "destino_id", Destino.all.collect{|l|[l.ciudad, l.id,] }, { include_blank: 'Selecione Ciudad'}) %>
+  </div>
+  <div class="field">
+    <%= f.label :origen_id %><br>
+    <%= f.select( "origen_id", Origen.all.collect{|l|[l.ciudad, l.id,] }, { include_blank: 'Selecione Ciudadd'}) %>
+  </div>
+  <div class="field">
+    <%= f.label :fecha %><br>
+    <%= f.date_select :fecha %>
+  </div>
+  <div class="field">
+    <%= f.label :hora %><br>
+    <%= f.time_select :hora %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

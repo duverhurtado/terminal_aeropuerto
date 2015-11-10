@@ -1,0 +1,27 @@
+<h1>Listing origens</h1>
+<div class="table-responsive">
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr class="success">
+      <th>Ciudad</th>
+      <th>N aeropuerto</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @origens.each do |origen| %>
+      <tr>
+        <td><%= origen.ciudad %></td>
+        <td><%= origen.n_aeropuerto %></td>
+        <td><%= link_to 'Show', origen %></td>
+        <td><%= link_to 'Edit', edit_origen_path(origen) %></td>
+        <td><%= link_to 'Destroy', origen, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</div>
+<br>
+
+<%= link_to 'New Origen', new_origen_path %>

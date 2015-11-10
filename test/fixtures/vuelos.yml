@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  aerolinea_id: 
+  itinerario_id: 
+  capacidad: 1
+  modelo_avion: MyString
+  num_vuelo: MyString
+
+two:
+  aerolinea_id: 
+  itinerario_id: 
+  capacidad: 1
+  modelo_avion: MyString
+  num_vuelo: MyString

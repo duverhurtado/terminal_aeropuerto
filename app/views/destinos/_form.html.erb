@@ -1,0 +1,25 @@
+<%= form_for(@destino) do |f| %>
+  <% if @destino.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@destino.errors.count, "error") %> prohibited this destino from being saved:</h2>
+
+      <ul>
+      <% @destino.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :ciudad %><br>
+    <%= f.text_field :ciudad %>
+  </div>
+  <div class="field">
+    <%= f.label :n_aeropuerto %><br>
+    <%= f.text_field :n_aeropuerto %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

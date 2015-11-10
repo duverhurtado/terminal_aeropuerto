@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Aerolinea:</strong>
+  <%= @vuelo.aerolinea.nombre %>
+</p>
+
+<p>
+  <strong>Itinerario:</strong>
+  <%= @vuelo.itinerario.codigo_it %>
+</p>
+
+<p>
+  <strong>Capacidad:</strong>
+  <%= @vuelo.capacidad %>
+</p>
+
+<p>
+  <strong>Modelo avion:</strong>
+  <%= @vuelo.modelo_avion %>
+</p>
+
+<p>
+  <strong>Num vuelo:</strong>
+  <%= @vuelo.num_vuelo %>
+</p>
+
+<%= link_to 'Edit', edit_vuelo_path(@vuelo) %> |
+<%= link_to 'Back', vuelos_path %>

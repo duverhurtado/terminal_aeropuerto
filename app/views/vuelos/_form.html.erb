@@ -1,0 +1,37 @@
+<%= form_for(@vuelo) do |f| %>
+  <% if @vuelo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@vuelo.errors.count, "error") %> prohibited this vuelo from being saved:</h2>
+
+      <ul>
+      <% @vuelo.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :aerolinea_id %><br>
+    <%= f.select( "aerolinea_id", Aerolinea.all.collect{|l|[l.nombre, l.id,] }, { include_blank: 'Selecione Aerolinea'}) %>
+  </div>
+  <div class="field">
+    <%= f.label :itinerario_id %><br>
+    <%= f.select( "itinerario_id", Itinerario.all.collect{|l|[l.codigo_it, l.id,] }, { include_blank: 'Selecione Itinerario'}) %>
+  </div>
+  <div class="field">
+    <%= f.label :capacidad %><br>
+    <%= f.number_field :capacidad %>
+  </div>
+  <div class="field">
+    <%= f.label :modelo_avion %><br>
+    <%= f.text_field :modelo_avion %>
+  </div>
+  <div class="field">
+    <%= f.label :num_vuelo %><br>
+    <%= f.text_field :num_vuelo %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

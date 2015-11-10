@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codigo_it: MyString
+  destino_id: 
+  origen_id: 
+  fecha: 2015-10-31
+  hora: 2015-10-31 20:32:15
+
+two:
+  codigo_it: MyString
+  destino_id: 
+  origen_id: 
+  fecha: 2015-10-31
+  hora: 2015-10-31 20:32:15

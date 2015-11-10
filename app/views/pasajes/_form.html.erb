@@ -1,0 +1,37 @@
+<%= form_for(@pasaje) do |f| %>
+  <% if @pasaje.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pasaje.errors.count, "error") %> prohibited this pasaje from being saved:</h2>
+
+      <ul>
+      <% @pasaje.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :cliente_id %><br>
+      <%= f.select( "cliente_id", Cliente.all.collect{|l|[l.rut, l.id,] }, { include_blank: 'Selecione Cliente'}) %>
+  </div>
+  <div class="field">
+    <%= f.label :vuelo_id %><br>
+      <%= f.select( "vuelo_id", Vuelo.all.collect{|l|[l.num_vuelo, l.id,] }, { include_blank: 'Selecione Vuelo'}) %>
+  </div>
+  <div class="field">
+    <%= f.label :clase_id %><br>
+      <%= f.select( "clase_id", Clase.all.collect{|l|[l.t_clase, l.id,] }, { include_blank: 'Selecione Clase'}) %>
+  </div>
+  <div class="field">
+    <%= f.label :asiento %><br>
+    <%= f.text_field :asiento %>
+  </div>
+  <div class="field">
+    <%= f.label :valor %><br>
+    <%= f.text_field :valor %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

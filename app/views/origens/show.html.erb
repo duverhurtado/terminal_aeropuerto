@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ciudad:</strong>
+  <%= @origen.ciudad %>
+</p>
+
+<p>
+  <strong>N aeropuerto:</strong>
+  <%= @origen.n_aeropuerto %>
+</p>
+
+<%= link_to 'Edit', edit_origen_path(@origen) %> |
+<%= link_to 'Back', origens_path %>
