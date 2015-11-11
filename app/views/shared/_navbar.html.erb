@@ -33,7 +33,6 @@
             <li><a href="<%=destinos_path %>">Destino</a></li>
 
           </ul>
-
           <ul class="nav navbar-nav navbar-right">
             <% if usuario_signed_in? %>
             <li><a> <%= current_usuario.email %> </a></li>
@@ -44,6 +43,18 @@
               <li><a href="<%= new_usuario_registration_path %>">Registrarse</a></li>
             <% end %>
           </ul>
+
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
+</nav>
+<style>
+th{
+padding: 20px;
+}
+</style>
+<style>
+body {background-color:lightgray}
+h1   {color:white}
+p    {color:green}
+</style>
 </nav>
