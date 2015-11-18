@@ -1,4 +1,4 @@
-<h1>Listing itinerarios</h1>
+<h1>Listado itinerarios</h1>
 <div class="table-responsive">
 <table class="table table-bordered table-hover">
   <thead>
@@ -20,9 +20,9 @@
         <td><%= itinerario.origen.ciudad %></td>
         <td><%= itinerario.fecha %></td>
         <td><%= itinerario.hora %></td>
-        <td><%= link_to 'Show', itinerario %></td>
-        <td><%= link_to 'Edit', edit_itinerario_path(itinerario) %></td>
-        <td><%= link_to 'Destroy', itinerario, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Ver', itinerario %></td>
+        <td><%= link_to 'Editar', edit_itinerario_path(itinerario) %></td>
+        <td><%= link_to 'Eliminar', itinerario, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +30,4 @@
 </div>
 <br>
 
-<%= link_to 'New Itinerario', new_itinerario_path %>
+<%= link_to 'Nuevo  Itinerario', new_itinerario_path %>

@@ -1,4 +1,4 @@
-<h1>Listing vuelos</h1>
+<h1>Listado de  vuelos</h1>
 <div class="table-responsive">
 <table class="table table-bordered table-hover">
   <thead>
@@ -20,9 +20,9 @@
         <td><%= vuelo.capacidad %></td>
         <td><%= vuelo.modelo_avion %></td>
         <td><%= vuelo.num_vuelo %></td>
-        <td><%= link_to 'Show', vuelo %></td>
-        <td><%= link_to 'Edit', edit_vuelo_path(vuelo) %></td>
-        <td><%= link_to 'Destroy', vuelo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Ver', vuelo %></td>
+        <td><%= link_to 'Editar', edit_vuelo_path(vuelo) %></td>
+        <td><%= link_to 'Eliminar', vuelo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +30,4 @@
 </div>
 <br>
 
-<%= link_to 'New Vuelo', new_vuelo_path %>
+<%= link_to 'Nuevo Vuelo', new_vuelo_path %>

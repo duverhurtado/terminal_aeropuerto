@@ -1,4 +1,4 @@
-<h1>Listing aerolineas</h1>
+<h1>Listado de aerolineas</h1>
 <div class="container">
   <div class="table-responsive">
 <table class="table table-bordered table-hover">
@@ -17,9 +17,9 @@
         <td><%= aerolinea.nombre %></td>
         <td><%= aerolinea.direccion %></td>
         <td><%= aerolinea.telefono %></td>
-        <td><%= link_to 'Show', aerolinea %></td>
-        <td><%= link_to 'Edit', edit_aerolinea_path(aerolinea) %></td>
-        <td><%= link_to 'Destroy', aerolinea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Ver', aerolinea %></td>
+        <td><%= link_to 'Editar', edit_aerolinea_path(aerolinea) %></td>
+        <td><%= link_to 'Eliminiar', aerolinea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +28,4 @@
 </div>
 <br>
 
-<%= link_to 'New Aerolinea', new_aerolinea_path %>
+<%= link_to 'Nueva Aerolinea', new_aerolinea_path %>

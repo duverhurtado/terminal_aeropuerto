@@ -1,4 +1,4 @@
-<h1>Listing pasajes</h1>
+<h1>Listado de pasajes</h1>
 <div class="table-responsive">
 <table  class="table table-bordered table-hover">
   <thead>
@@ -20,9 +20,9 @@
         <td><%= pasaje.clase.t_clase %></td>
         <td><%= pasaje.asiento %></td>
         <td><%= pasaje.valor %></td>
-        <td><%= link_to 'Show', pasaje %></td>
-        <td><%= link_to 'Edit', edit_pasaje_path(pasaje) %></td>
-        <td><%= link_to 'Destroy', pasaje, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Ver', pasaje %></td>
+        <td><%= link_to 'Editar', edit_pasaje_path(pasaje) %></td>
+        <td><%= link_to 'Eliminar', pasaje, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +30,4 @@
 </div>
 <br>
 
-<%= link_to 'New Pasaje', new_pasaje_path %>
+<%= link_to 'Nuevo Pasaje', new_pasaje_path %>

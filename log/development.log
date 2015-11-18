@@ -27776,3 +27776,1157 @@ Processing by OrigensController#new as HTML
   Rendered origens/new.html.erb within layouts/application (22.0ms)
   Rendered shared/_navbar.html.erb (0.0ms)
 Completed 200 OK in 190ms (Views: 186.8ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/usuarios/sign_out" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"p9DzOwkHrpTbTVtNrM1XV9JTPc7qpp2h9AjToHbvIpw="}
+  [1m[36mUsuario Load (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 1  ORDER BY "usuarios"."id" ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 40ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 147ms (Views: 146.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aerolineas.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/clases.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/cliente_vuelos.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/clientes.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/destinos.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/itinerarios.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/origens.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/pasajes.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/vuelos.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/aerolineas.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/clases.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/cliente_vuelos.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/clientes.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/destinos.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/itinerarios.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/origens.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/pasajes.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/vuelos.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 20:54:17 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-18 20:13:06 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (26.0ms)
+  Rendered shared/_navbar.html.erb (5.0ms)
+Completed 200 OK in 859ms (Views: 844.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/clases.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/aerolineas.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/cliente_vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/destinos.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/clientes.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/itinerarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/origens.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/pasajes.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/aerolineas.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/clases.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/cliente_vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/clientes.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/destinos.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/itinerarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/origens.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/pasajes.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/assets/aer.jpg" for 127.0.0.1 at 2015-11-18 20:13:08 -0300
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:13:14 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (325.6ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 513ms (Views: 479.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aerolineas" for 127.0.0.1 at 2015-11-18 20:13:23 -0300
+Processing by AerolineasController#index as HTML
+  [1m[35mAerolinea Load (1.0ms)[0m  SELECT "aerolineas".* FROM "aerolineas"
+  Rendered aerolineas/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 152ms (Views: 147.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/aerolineas/new" for 127.0.0.1 at 2015-11-18 20:13:25 -0300
+Processing by AerolineasController#new as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:13:25 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 161ms (Views: 159.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aerolineas/new" for 127.0.0.1 at 2015-11-18 20:14:16 -0300
+Processing by AerolineasController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:14:16 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 165ms (Views: 164.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/clases.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/destinos.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/clientes.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/cliente_vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/aerolineas.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/itinerarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/origens.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/pasajes.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/aerolineas.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/clases.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/cliente_vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/clientes.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/destinos.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/itinerarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/origens.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/pasajes.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-18 20:14:17 -0300
+
+
+Started GET "/vuelos" for 127.0.0.1 at 2015-11-18 20:14:18 -0300
+Processing by VuelosController#index as HTML
+  [1m[36mVuelo Load (0.0ms)[0m  [1mSELECT "vuelos".* FROM "vuelos"[0m
+  Rendered vuelos/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 175ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vuelos/new" for 127.0.0.1 at 2015-11-18 20:14:22 -0300
+Processing by VuelosController#new as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:14:22 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 163ms (Views: 163.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vuelos" for 127.0.0.1 at 2015-11-18 20:14:24 -0300
+Processing by VuelosController#index as HTML
+  [1m[35mVuelo Load (1.0ms)[0m  SELECT "vuelos".* FROM "vuelos"
+  Rendered vuelos/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 145ms (Views: 144.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/aerolineas" for 127.0.0.1 at 2015-11-18 20:14:26 -0300
+Processing by AerolineasController#index as HTML
+  [1m[36mAerolinea Load (0.0ms)[0m  [1mSELECT "aerolineas".* FROM "aerolineas"[0m
+  Rendered aerolineas/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 160ms (Views: 160.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/origens" for 127.0.0.1 at 2015-11-18 20:14:28 -0300
+Processing by OrigensController#index as HTML
+  [1m[35mOrigen Load (0.0ms)[0m  SELECT "origens".* FROM "origens"
+  Rendered origens/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 134ms (Views: 130.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vuelos" for 127.0.0.1 at 2015-11-18 20:14:33 -0300
+Processing by VuelosController#index as HTML
+  [1m[36mVuelo Load (0.0ms)[0m  [1mSELECT "vuelos".* FROM "vuelos"[0m
+  Rendered vuelos/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 139ms (Views: 139.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aerolineas" for 127.0.0.1 at 2015-11-18 20:14:33 -0300
+Processing by AerolineasController#index as HTML
+  [1m[35mAerolinea Load (0.0ms)[0m  SELECT "aerolineas".* FROM "aerolineas"
+  Rendered aerolineas/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 158ms (Views: 157.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aerolineas/new" for 127.0.0.1 at 2015-11-18 20:14:44 -0300
+Processing by AerolineasController#new as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:14:44 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (15.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 167ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:14:50 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 145ms (Views: 144.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:14:51 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (15.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 146ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/origens" for 127.0.0.1 at 2015-11-18 20:14:52 -0300
+Processing by OrigensController#index as HTML
+  [1m[36mOrigen Load (0.0ms)[0m  [1mSELECT "origens".* FROM "origens"[0m
+  Rendered origens/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 159ms (Views: 159.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/origens" for 127.0.0.1 at 2015-11-18 20:15:08 -0300
+Processing by OrigensController#index as HTML
+  [1m[35mOrigen Load (0.0ms)[0m  SELECT "origens".* FROM "origens"
+  Rendered origens/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 173ms (Views: 172.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aerolineas.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/clases.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/cliente_vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/clientes.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/destinos.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/itinerarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/origens.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/pasajes.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/aerolineas.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/clases.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/cliente_vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/clientes.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/destinos.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/origens.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/itinerarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/pasajes.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:09 -0300
+
+
+Started GET "/origens" for 127.0.0.1 at 2015-11-18 20:15:10 -0300
+Processing by OrigensController#index as HTML
+  [1m[36mOrigen Load (0.0ms)[0m  [1mSELECT "origens".* FROM "origens"[0m
+  Rendered origens/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 172ms (Views: 171.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aerolineas.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/destinos.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/clientes.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/cliente_vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/clases.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/itinerarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/pasajes.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/origens.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/aerolineas.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/clases.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/cliente_vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/clientes.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/destinos.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/pasajes.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/itinerarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/origens.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-18 20:15:11 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-18 20:15:12 -0300
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 158ms (Views: 158.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vuelos" for 127.0.0.1 at 2015-11-18 20:15:15 -0300
+Processing by VuelosController#index as HTML
+  [1m[35mVuelo Load (0.0ms)[0m  SELECT "vuelos".* FROM "vuelos"
+  Rendered vuelos/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 161ms (Views: 161.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vuelos/new" for 127.0.0.1 at 2015-11-18 20:15:17 -0300
+Processing by VuelosController#new as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:15:17 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 160ms (Views: 159.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vuelos/new" for 127.0.0.1 at 2015-11-18 20:16:13 -0300
+Processing by VuelosController#new as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:16:13 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 159ms (Views: 157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/clases.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/destinos.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/clientes.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/cliente_vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/aerolineas.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/itinerarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/origens.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/pasajes.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/aerolineas.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/clases.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/cliente_vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/clientes.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/destinos.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/itinerarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/pasajes.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/origens.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-18 20:16:14 -0300
+
+
+Started GET "/aerolineas" for 127.0.0.1 at 2015-11-18 20:16:16 -0300
+Processing by AerolineasController#index as HTML
+  [1m[36mAerolinea Load (0.0ms)[0m  [1mSELECT "aerolineas".* FROM "aerolineas"[0m
+  Rendered aerolineas/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 139ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-18 20:16:19 -0300
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 134ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 166ms (Views: 164.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/clases.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/clientes.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/destinos.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/cliente_vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/aerolineas.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/itinerarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/pasajes.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/origens.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/aerolineas.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/clases.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/cliente_vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/clientes.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:17 -0300
+
+
+Started GET "/assets/destinos.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:18 -0300
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:18 -0300
+
+
+Started GET "/assets/itinerarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:18 -0300
+
+
+Started GET "/assets/pasajes.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:18 -0300
+
+
+Started GET "/assets/origens.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:18 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:18 -0300
+
+
+Started GET "/assets/vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:18 -0300
+
+
+Started GET "/vuelos" for 127.0.0.1 at 2015-11-18 20:17:19 -0300
+Processing by VuelosController#index as HTML
+  [1m[35mVuelo Load (0.0ms)[0m  SELECT "vuelos".* FROM "vuelos"
+  Rendered vuelos/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 159ms (Views: 159.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vuelos/new" for 127.0.0.1 at 2015-11-18 20:17:21 -0300
+Processing by VuelosController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:17:21 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 161ms (Views: 159.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/sign_up" for 127.0.0.1 at 2015-11-18 20:17:28 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 148ms (Views: 147.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/usuarios" for 127.0.0.1 at 2015-11-18 20:17:34 -0300
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"usuarios"}
+  [1m[36mUsuario Load (18.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 21ms
+
+ActiveRecord::RecordNotFound (Couldn't find Usuario with 'id'=usuarios):
+  app/controllers/usuarios_controller.rb:41:in `set_usuario'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (58.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (0.0ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (79.6ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 226ms (Views: 225.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/clientes.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/destinos.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/clases.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/cliente_vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/aerolineas.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/itinerarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/origens.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/pasajes.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/aerolineas.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/clases.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/cliente_vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/clientes.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/destinos.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/itinerarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/origens.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/pasajes.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-18 20:17:39 -0300
+
+
+Started GET "/usuarios/new" for 127.0.0.1 at 2015-11-18 20:17:41 -0300
+Processing by UsuariosController#new as HTML
+  [1m[36mCliente Load (0.0ms)[0m  [1mSELECT "clientes".* FROM "clientes"[0m
+  Rendered usuarios/_form.html.erb (15.6ms)
+  Rendered usuarios/new.html.erb within layouts/application (64.8ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 201ms (Views: 200.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-11-18 20:17:44 -0300
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (0.0ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 127ms (Views: 126.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-18 20:17:47 -0300
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 161ms (Views: 160.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:17:48 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.6ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 158ms (Views: 157.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aerolineas" for 127.0.0.1 at 2015-11-18 20:19:20 -0300
+Processing by AerolineasController#index as HTML
+  [1m[36mAerolinea Load (0.0ms)[0m  [1mSELECT "aerolineas".* FROM "aerolineas"[0m
+  Rendered aerolineas/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 140ms (Views: 140.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aerolineas/new" for 127.0.0.1 at 2015-11-18 20:19:23 -0300
+Processing by AerolineasController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:19:23 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 159ms (Views: 158.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aerolineas/new" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+Processing by AerolineasController#new as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 213ms (Views: 212.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aerolineas.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/cliente_vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/clases.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/destinos.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/clientes.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/inicio.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/itinerarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/origens.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/pasajes.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/vuelos.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/aerolineas.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/clases.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/cliente_vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/clientes.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/destinos.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/inicio.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/origens.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/pasajes.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/itinerarios.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/vuelos.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/assets/aer.jpg" for 127.0.0.1 at 2015-11-18 20:22:18 -0300
+
+
+Started GET "/vuelos" for 127.0.0.1 at 2015-11-18 20:22:21 -0300
+Processing by VuelosController#index as HTML
+  [1m[35mVuelo Load (0.0ms)[0m  SELECT "vuelos".* FROM "vuelos"
+  Rendered vuelos/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 169ms (Views: 168.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vuelos/new" for 127.0.0.1 at 2015-11-18 20:22:22 -0300
+Processing by VuelosController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/usuarios/sign_in" for 127.0.0.1 at 2015-11-18 20:22:22 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered shared/_navbar.html.erb (0.0ms)
+Completed 200 OK in 134ms (Views: 133.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aerolineas" for 127.0.0.1 at 2015-11-18 20:22:24 -0300
+Processing by AerolineasController#index as HTML
+  [1m[36mAerolinea Load (0.0ms)[0m  [1mSELECT "aerolineas".* FROM "aerolineas"[0m
+  Rendered aerolineas/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (15.6ms)
+Completed 200 OK in 138ms (Views: 137.2ms | ActiveRecord: 0.0ms)
